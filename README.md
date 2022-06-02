@@ -7,3 +7,13 @@
 - Routing will be taken care by the route tables.
 - Networks will be connected via peering network service.
 - On-Prem networks that need to contact azure virtual networks will also go through the Hub networks.
+
+
+<p align="center">
+  
+<img src="https://user-images.githubusercontent.com/104326475/171688005-e3f65c28-cc93-4a40-b71b-a1116e028151.png" height="180%" width="180%" alt="hubspoke"/>
+
+<p/>
+
+# Use Case: Set up a Hub-Spoke model where there is an on-prem network commmunicating with the spoke network via the central hub network.
+- The central hub network must have a Azure Firewall Service.
