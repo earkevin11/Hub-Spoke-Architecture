@@ -1,7 +1,7 @@
 # Hub-Spoke-Architecture
 
 # What is the purpose of the Hub-Spoke Architecture?
-- Companies will use one central network that will act as a Hub. Companies will install the Azure Firewall Service instance.
+- Companies will use one central network that will act as a Hub. Companies will install the Azure Firewall Service instance within the Hub network
 - Then there will be other virtual networks that will act as a Spoke network. 
 - The traffic coming from Spoke networks will flow through the <em> Hub network </em>.
 - Routing will be taken care by the route tables.
